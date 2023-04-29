@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PP Enlargemnt</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 0.75rem;
+}
+  </style>
+</head>
+<body>
+
+
+  
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+    <img src="data:image/png;base64,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" height="69px" alt="">  <a class="navbar-brand" href="#">  BIG-P</a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/hp/Desktop/11.2%20Bootstrap%20Components/lol.html" > <img src="file:///C:/Users/hp/Downloads/bag.svg" alt=""> Shop </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="file:///C:/Users/hp/Desktop/11.2%20Bootstrap%20Components/lol.html">Last Longer Training</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="file:///C:/Users/hp/Desktop/11.2%20Bootstrap%20Components/lol.html">PP Enlargemnt Pills</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="file:///C:/Users/hp/Desktop/11.2%20Bootstrap%20Components/lol.html">Small PP Therapy</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"> insecure bitch </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold"> Penis enlargement </h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead ">Our penis enlargement service offers a safe and effective solution for men who desire a larger member. Using state-of-the-art techniques and medical-grade equipment, we provide a range of personalized treatment plans tailored to your specific needs. Our team of experienced professionals prioritizes your comfort and confidentiality, ensuring a discreet and enjoyable experience. Contact us today to learn more about how we can help you achieve the size and confidence you deserve.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+      </div>
+    </div>
+    <div >
+      <div class="container px-5">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTERUTExISFhMVFRUVFxgYFRUWFRcYFhUYFxcVGBUYHSggHRolHRgXITEhJSkrLi4uGB8zODMsNygtMSsBCgoKDg0OGhAQGy0lICUuLy0tLS0tLy0tLi0tKy0rLystLTItLSstLS0tLS0tLS0tNS0tKy0tLS0tLS01LS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAgYBAwUHBP/EADcQAAICAgAEBAQEAwgDAAAAAAECAAMEEQUSITEGE0FRFCJhcQcjgZEyUqEkM0JDYnLR8BVTkv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABwRAQEBAQADAQEAAAAAAAAAAAABERIhMUECUf/aAAwDAQACEQMRAD8A9xiIgJhW3IM0kkCUREBERAREiTAlEhr6mSBgZiIgIiICIiAmFbY3IM0mvaBmIiAiIgIiRJgSiQEkDAzERATWzSbDpIqsAqycRAREQEREBICTmCIEZICAJmAiIgIiICa2aScbEwqwMqslEQEREBERASCycwRAjJAQBMwEREBERAREQEREBERAREQEREBERARE4HGfGuBisVvy6lcd1BLuPuiAkfqINd+JXeEeOuHZLBacyosegVia2J9gtgBJ+0sUG6REQEREBERAREQEREBERAREQEREBERAREQEREBERAREQKN4hzb87Lbh2LY1VVSq2Zev8ahxtaKz6Ow6k+nX2INg4H4Ww8RQtGPWp9WKhrG+rOepnD/CdebDtyD/AHmRlZFrn135hQD7AL2+sus1f4zJ9cnjXhvEykKX49Tg+pUBx9VcfMD9jKxwnIu4Zl14V9rW4eQSuLa53ZXYO2NY3qD/AIT+n+2+ymfi7TvhV1gOnpaq6tvVXS1dEfXRI/WSfws+rnE10PzKre4B/cbmyRoiIgIiICIiAiIgIiICIkWMCUSGvvJKYGYiICIiAiIgJhTuQZpJB0gSiJC+5UUs7BVUEsxICgDqSSewgUjwTf8ACZmVw2zpzWvlYpPQPVadsi/VGB6d/wCI9hL1PMeJq/HL6/hh5OLjOWXNKkWu46FcfqDybA2T6qPbR61ebxrF+SzGoz1HQW1WrRYR7vW/y83+3pNWMSrxKJ+JFwymo4VWd2ZNiPdo/wB3j1sHZyR2JKgD319pss4lxnI+SrCowwehtuuW5gPUrXWNb9t9JxOEYdq3XY/D7PMyS39t4jcvPp//AF1p2JHovYa6+hKQteogTMpg/D+tx+fl511nqxvZOv8ApVeij6dp813hzPwgbMDMtyFXq2LlN5nMP5a7uhQ67Dt7mTI1tXyJxvCviKrOo82sMrKxS2tuj1WL/EjD3H/fadmRSIiAiIMATMKdiQLbk1HSBmIiAkRJTBECMkBAEzAREQEREBNbNuTYbmFWAVZKaM/KFVT2FXbkRn5UXmduUb5VUd2PoJ57xPxVQ/w12UuRXmVPY9WBTaXd2bpUb0RflbQ3ytrXMw0d6lk1LcXvjPFqcWlrr7Ala9yfU+igdyx9AJS6eHZHGGW3LV6OHAhqsbZW3I11Wy8jsnqF/wCAT9XBvC92VcubxTTWL1oxQd0Y49Cw7Pb7k+v2XlvEvpPbXRSqKERVVFAVVUAKoHQAAdAJsiJlpX/H3FzicOyb1OnWvSH2ewitG/RmBm7wjwgYuHTQNcyopc/zWFRzsfud/wBJ8X4m8NbI4VlVKCW8vnAHUk1MtugPc8mv1nV8P8SXKxachD0srVvsdfMp+oOwftL8T6++SAgCZkVRr6xiceqZOicRpsWxR2N2MOcWffkOv1J9ZeZSOKsMjjuHWvX4Ki++wjsDeorRCffXza9jLvLUn0iIkUJmtjuScQqwCrJREBERAREQEREBERAREwTAzOP4o46cSoOtFt9juK666wds5BI5m1pF6HbGQu463xgxExsk/LzPfyAUV7UldO38Z2AND3+h1LwvwI4lTK19t9tjmyyyw9WYgD5U3pF0B8olRUPGGM6ZqHHstPEc1PKqDtuvCoCqb7FVem9jud9e3br9o/DkUKjYOXdj5CKQ1mlsF7MeZmuVh8xJ366G+02+G087jPEchuvkLRiVe6ry+ZYP1bUu0tuJJql8K8W3U3ricTqSm1zqm9N/DXn2BPVH/wBJ7/TYBuk5/H+DU5lD0XrzI4/VT6Op9GHvK/4B4paDdw/KbmycMqA53+dSw/Kt69zroe/ps7Jk9nrwuEwTNObl11VtZa6pWg2zMdAD6mUJ3yONHS+ZjcK31bqt+YB6KP8ABSff1HvshUi2vo4l4hyOIWticMYLWp5b83W0T3Sj+ez6jt6a2GHy43C8rgp/syW5nD20XqGjk0uBprKwNB1bWyo119upN94dgVUVrVSipWg0qqNAf8n69zPpl1OVTxPxI4Y42ctKyO62Bq3U+xDDv9tz4sz8QBfurhdL5dx6c/KyY1Z/mssbW9d9DvrvLhkcPqc7eqtz7sisf3Im+usKNKAAPQDQ/YSeF8uB4O8N/CI7WP5uVe3mZFv8zeir7IuyAPv0HYWGIkWEREBERAREQEREBERAREQEREBK34wSnJC8Oe+yp8kFtIpJauoq1iFtaUMOnXv179jZJWzm0NxjyTR/aEwvNW7f+W93I1YX7gHcsSrBj0qiKijSqoVR7BRoD9psiJFee4XFquH8T4kuS4rrtWnMrY/4hy+XYAPVucABR1MsHg/i2VlLZfdQtNDlTjId+ea9Hb29dDm6EAfXuNEx8a+Ea8+tPm8u+o81NvKG5TsHlZT0ZCQNg+378urxHxPH+TL4a1/L/nYjq4f6+S2mH/ek17jPqrxKJ41sXE4jg55PLWRbi5Da6eWymyvZ9gwY/tNx8aZbj8jg2cX9Bca8dfuWYmV3MxcriV9uLlZdAvqqNq4VQsOMrbAT4q8D5jsg8gPsfoUhbvptx7l4lkY9nEbOTHvdzg4XzfnBAW8+/Q69BsA/L1HoTzeoqoAAAAA6ADoAB6Tl+H+FtTRUt1nn3IrA2lFU/MdlVAHyoOgA9lE6slqyEREikREBERAREQEREBERAREQEREBIq25FmkkECUREBOHxHLyEzsVEpD41q3LdYF21bKoaslt9FJ2O3czuTm+I+GNk41lKXWUu4HLYjFWRlIZTtSDrYAI31BIiFdKJXq/EaUXY+FlO3xVlaasFTLTbZohlRuoDbUnXpse+p3ubfb7fr7QJzBM1uQoJJ5QOpJIAA99zhZGbkX5NCUJS+A9TvdcWWxLA20Wmvlbv6k6I1/UNGdxO3Oq1wvKpULear7uUuUCqGPlKy8rt8y9f4dHofaxY+HWjOyIitYQzsqgF2A0GYgdToAdZjAwq6a1qqrSutRpVUBVH2An0SoRESKREEwMEwp2JrJ3NiiBmIiAiIgIiQJ39oE4kNSQMDMREBNbNuTImFWAVZKIgIiICIiBgicTC8K4tV111VbV25ClbGWxxvmOywXeg2/UDpO5MEQOEvhag0Pj2+bfU7K5F1jP1Ugjr00AVB1OvhYldVa11IqVqNKqgKoHsAO03ATMBERAREQMEzWx3NjDcwq/vAKslEQEREBERASC/wBZOYIgRkgIAmYCIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIicHx1xGzH4fk3UnltSvanQOjsDej0Pf1gd6J5pwjxLcM3DpTiNecuQH86ta6eagLXzc/PT2G+mm9v25nCvFlloc38b+Gs861BUMahuVQ5CfMUPprvNc1nqPXonnfFfGF+LxZq7W5sBK8dLTyqPJe7YS8kDfKWHKeugCPXv8viLxXl14fFra7QHxsyuuk8iHkQmna6I0d8zdTs/N37ac06j06J554x8Q3VZpqty7MHF8pDVcmOtq22sTzB7HRgoXp8vT3JGxLZ4TyrbcSp7rKLLCDt6G5qn0xCsp+oAJHodiTF114nkHA/Fllyc1/HPh7WsdfKGLQwUCwqmmKeo13nbzvGN2Pxe2q07wVGPW55VHkvcu0tZgN8rMCp30Gx29bzU6j0SJ5nxTxVlpj5zi3TU8UTHrPIny1bqBTWuoO26nr1PXtr0m2wKpZiAqgkk9gANkmSxZU4nnngrxXlW5YGSR5GdXbfhDlVSi1WEeV0G2Jr5bOu/03qc3J8U2nIzUfi64hpveumryKLOdVHQ6K87denQy8p09ViedVeJM++vh+MoXGy8uuy26xq9mquvoGWpunO/Q6OwN9vbpcDzcivKtpbiGNmVCp26mlcqq1CAUaurQK9+pAIPT7zF1c4nkXhTxVZkV0Ndxw132MAaPhaD1L8qrzeX/AIhr/wCp2MbxbkJxm+m6wfBhnqQcqjksTHS/fMBs7UWdyf6S8pP1HosTx/hXjfPfC4nc9g8yqvFuoHJX+UuVt1X+HTfIU1zb/WWHwlxnzsipf/NHIYgs1Hw1Kc3yHY51QEaPXofSL+aT9Sr/ABPL/CfjnIerIryW/NavKuxLOVQHWkur16A0WrZQddyp69tnPHOKcQXg9XEq84qwxcZnq8igiyyxkVn52XoTz70Brp07xydeNenxOT4dw8itD8RlnJLaZSaq6uQa/h0nf7mdaZaIiICIiAiJEmBKcbxhwl8rBvx6yqvahVS2+UHYI3oE66e063LJKYHycN4elKKqogYKqkqoXegBvpKdwXgHFcNGqot4cazbbYpsTIL/AJjluvKwHrL7Eupirr4XL5eXbf5b05WNTQyDm3tOfnPXsOo0d7+2utaH4b3jhubhfEVs+RfW9djc5+Ss1a8zpvn5UPQbHbr7emxG0yKxxXhmeMiy3FtosquRFajJ83y0ZARz18m+hB6robPr7fV4L8P/AAOItBcO3M7sQvKvM7FiEX0Ub0PtO7MExpihcC4BxXDp8ii3hzVh7GU2JkF/nct15WA9Z1K/CvmZOdZkeW9OZTRUUG9jy1ZXJ9u4IIO/tqWZjuTURpjzaj8O8heH5GKcitrLMtMhHbnIK1+WFFnTYYhOutj6zq8U4VxfJx7se27h6ragTmqS8MAXXn6uxGjXzjWu5HaXWI6qcxRc78Oq0+Hswneu7HuqdTZffYnlggWVhWZgu1/lA7AdAZ9NHgkOvEK8goyZmQ1qFd89e1XlbZHR1YbGtjoPciXGI2rzFIfwrmGrDuOTV/5HDDoLCrtTcjbXksHRtlQu277395PhnhbIbMGXknDrZa7UVMat9Mbdc1llj6LHp7evf3ukgev2jTmKJ4a4FxbDx6sau3hrV1bALJkFyGcsdkMB6n0mnxJ4AuyBmFbale/KqvpJ5/lC0CmwPodyC/QbB6b79PQeX95JTHVTmKDl+AHKcSRLK1TMrw66gQ3yDFqCfP09ddNbnZ4NRxRHrW5+HmhQA3lpeLSAuhylm1veu495ZojVyKC34fM3DBitYgyK7b7abV5tKbLHYKTrfKyNysPr66E+3i3hG23gg4ctlYtFNFfOeby+apq2PpvR5CO3rLjEdU5iNS6UD2AH7CSiRZpFHb95kTWBubYCIiAkZKYIgRkgIAmYCIiAiIgCZrLbkyJhVgFWSiICIiAiIgJAScwRAjqSAgCZgIiICIiBFmkB1mxl3AEABMxEBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA//2Q=="
+         alt="Example image" width="150" height="150" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Our Penis Enlargemnt Pills</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-capsule" viewBox="0 0 16 16">
+            <path d="M1.828 8.9 8.9 1.827a4 4 0 1 1 5.657 5.657l-7.07 7.071A4 4 0 1 1 1.827 8.9Zm9.128.771 2.893-2.893a3 3 0 1 0-4.243-4.242L6.713 5.429l4.243 4.242Z"/>
+          </svg>
+        </div>
+        <h2>Medication</h2>
+        <p>Our penis enlargement pills service offers a natural and convenient way to enhance your size and performance. Try our clinically tested supplements today. </p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-capsule" viewBox="0 0 16 16">
+            <path d="M1.828 8.9 8.9 1.827a4 4 0 1 1 5.657 5.657l-7.07 7.071A4 4 0 1 1 1.827 8.9Zm9.128.771 2.893-2.893a3 3 0 1 0-4.243-4.242L6.713 5.429l4.243 4.242Z"/>
+          </svg>
+        </div>
+        <h2>Therapy</h2>
+        <p>Our penis enlargement therapy service utilizes advanced techniques and equipment to provide safe and effective results. Achieve the size and confidence you desire</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-primary bg-gradient">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-capsule" viewBox="0 0 16 16">
+            <path d="M1.828 8.9 8.9 1.827a4 4 0 1 1 5.657 5.657l-7.07 7.071A4 4 0 1 1 1.827 8.9Zm9.128.771 2.893-2.893a3 3 0 1 0-4.243-4.242L6.713 5.429l4.243 4.242Z"/>
+          </svg>
+        </div>
+        <h2>Surgery</h2>
+        <p>Our penis enlargement surgery service provides a permanent solution to enhance your size and confidence. Our experienced surgeons use the latest techniques for safe and effective results.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pills2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="couple.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="surgery2.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>    
+</div>
+
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+  </ul>
+  <p class="text-center text-muted">© 2021 Company, Inc</p>
+</footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</body>
+
+</html>
